@@ -6,7 +6,7 @@ This project is based on tentacle https://github.com/nervosnetwork/tentacle
 
 Start three nodes:
 
-Node A
+Start node A
 
 ```
 RUST_LOG=info cargo run 1 3000
@@ -26,4 +26,4 @@ RUST_LOG=info cargo run 3 3002 /ip4/127.0.0.1/tcp/3000
 
 From the above 3 commands, A direct connect to B, A direct connect to C. At the last, the 3 nodes will direct connect to each other via simple-gossip
 
-//TODO: braodcast meesages
+//TODO: broadcast meesages
